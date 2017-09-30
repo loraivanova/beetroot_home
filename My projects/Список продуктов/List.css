@@ -1,0 +1,66 @@
+body {
+    background-color: rgba(0, 0, 0, 0.63);
+    font-size: 20px;
+}
+* {
+    transition: all
+    .1s ease-in;
+}
+.header-bordered {
+    background-color: #4A4F56;
+    text-align: center;
+    color: #EB7E78;
+    margin-top: -25px;
+}
+.bordered {
+    border: 20px solid white;
+    background-color: #3B3F45;
+}
+ul {
+    list-style-type: none;
+    color: #F9F9F9;
+}
+input:focus {
+    background-color: rgba(19, 18, 88, 0.63);
+
+}
+.first:after {
+    /*content: "(for the next lessons about CSS)";*/
+}
+.second:after {
+    /*content: "(for more CSS manipulations)";*/
+}
+.third:after {
+    /*content: "(because there are awesome)";*/
+}
+.fourth:after {
+    /*content: "(hm... they always disappear)";*/
+}
+.sixth:after {
+    /*content: "(for my friends)";*/
+}
+.mycheck:checked + label {
+    text-decoration: line-through;
+}
+.checkbox:checked {
+
+}
+.list-container {
+    margin: 0 auto;
+    width: 50%;
+    text-align: inherit;
+}
+.article-bordered {
+    background-color: #4A4F56;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    color: #EB7E78;
+    font-size: 30px;
+    margin: 20px auto 90px auto;
+}
+
+
+#88839E
+#7A7593 перечеркнутое
+№625E77 мышка фокус

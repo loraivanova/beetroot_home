@@ -1,0 +1,30 @@
+body {
+     background-color: powderblue;
+ }
+.bordered {
+    width: 95%;
+    padding: 5px;
+    border: 10px outset yellowgreen;
+    overflow: auto;
+    line-height: 8px;
+}
+h1 {
+    text-align: center;
+    color: #366b8b;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background-color: rgba(128, 172, 44, 0.99);
+}
+a:visited {
+    color: blueviolet;
+}
+a:link {
+    color: #cd316f;
+}
+a:hover {
+    color: #2acb84;
+}

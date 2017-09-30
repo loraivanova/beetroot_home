@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме</title>
+</head>
+<body>
+	<h2>Ivanov Kirill</h2>
+	<hr>
+	<ul>
+		<li><strong>Date of birth:</strong> May 24, 1990</li>
+		<li><strong>Ukraine, Odessa, Komitetskaya str. 11/17</strong></li>
+		<li><strong>Mobile: 063-304-76-16, 066-794-56-14 Skype: kirill_kay</strong></li>
+		<li><strong>KAY2476@gmail.com</strong></li>
+		<li><strong>Образование:</strong> Одесская национальная морская академия<br>
+
+	   	2001-2006<br>
+	    Специальность: Менеджмент организаций на морском транпорте
+	    </li>
+	 </ul>
+	 <hr>
+	 <h3>PERSONAL SUMMARY</h3>
+	 <hr>
+        <p>A bright and talented technician with a strong technical background who possesses self-discipline
+        <br>and ability to work with the minimum of supervision. A highly competent and enthusiastic support
+        <br>specialist with experience of providing advice assistance to system user via the service desk, telephone
+        <br>system and remote support software tools.
+</body>
+</html>

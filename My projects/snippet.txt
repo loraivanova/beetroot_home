@@ -1,0 +1,139 @@
+-- ##### body - это главная секция документа
+
+<!doctype html>
+<section></section>
+----------------------
+-- ###  Секционные элементы
+<!doctype html>
+<nav></nav>
+<section></section>
+<article></article>
+<acide></acide>
+--------------------------
+-- ###  Секционные элементы должны иметь заголовки
+<!doctype html>
+<h1>this is H1</h1>
+<nav><h2>Site menu</h2></nav>
+<section><h2>this is section</h2></section>
+<article><h2>this is article</h2></article>
+<aside><h2>this is aside</h2></aside>
+
+----### Секционные элементы можно вкладывать друг в друга, 
+-------  при этом будут образовываться новые уровни 
+<!doctype html>
+<!doctype html>
+<h1>this is H1</h1>
+<nav><h2>Site menu</h2></nav>
+<section>
+	<h2>this is section</h2>
+	<article>
+		<h2>Article in section</h2>
+		<section><h2>Nested section in article</h2></section>	
+	</article>
+</section>
+<article><h2>this is article</h2></article>
+<aside><h2>this is aside</h2></aside>
+
+--- ### DIV не образует новой секции 
+<h1>this is first H1</h1>
+<section><h1>this is second H1</h1></section>
+<div>DIV</div>
+<div><h1>DIV whith H1</h1></div>
+<section><h1>this is third H1</h1></section>
+
+
+--- ### Один уровень - нет вложенных секций
+<h1>this is first H1</h1>
+<h1>this is second H1</h1>
+<h1>this is third H1</h1>
+
+---- ###  А теперь если h1 включить в теги section образуется новый уровень
+
+<h1>this is first H1</h1>
+<section><h1>this is second H1</h1></section>
+<section><h1>this is third H1</h1></section>
+
+--## Аналогично предыдущему примеру, но зачем тогда новые секции ?
+<h1>this is first H1</h1>
+<h2>this is second H2</h2>
+<h2>this is third H2</h2>
+-------------------------------------
+-- ## В HTML 4  надо было всегда следить за использованим заголовеов
+-- ## В HTML 5 каждая секция имеет свою иерархию заголовков h1-h6,
+-- ## что дает возможность в каждой секции использовать 
+-- ## элемент h1 ( http://goo.gl/eiOjD )
+-------------------------------------
+<h1>this is first H1</h1>
+<section>	
+	<h1>this is H1</h2>
+	<h2>this is H2</h2>
+	<h2>this is  H2</h2>
+</section>
+<section>
+	<h1>this is H1</h2>
+	<h2>this is H2</h2>
+	<h2>this is  H2</h2>
+	<h3>this is H3</h3>
+</section>
+<h2>H2 without section</h2>	
+-------------------------------
+-- ## Добавить footer с p -> это не секция 
+-- ## Добавить в footer  h1 - прервется поток заголовков 
+-- ## Чтобы поток был нормальным надо использовать или h2 или секционный элемент 
+-------------------------------
+-- ## hgroup (http://goo.gl/7OApw) 
+-- ## Элементы h1-h6 включаются в hgroup, если нам
+-- ## не нужно с их помощью формировать иерархию  
+
+<hgroup>
+	<h1>this is H1</h1>
+	<h2>this is H2</h2>
+</hgroup>
+-------------------------------
+-- ## Заголовок секции определяется самым высоким элементом Hn
+<hgroup>
+	<h3>this is H3</h3>
+	<h2>this is H2</h2>
+	<h1>this is H1</h1>
+</hgroup>
+
+--- ### Практическое применение секционнных элементов
+<!doctype html>
+<h1>Out Site</h1>
+<section>
+	<header>
+		<h1>Welcome to our library</h1>
+	</header>
+	<article>
+		<h2>Our books</h2>
+			<h3>Fantastics</h3>
+				<h4>Fantomas</h4>
+				<h4>Capitan Nemo</h4>
+			<h3>Children's book</h3>
+				<h4>Brothers Grimm</h4>
+				<h4>Story</h4>
+	</article>
+</section>
+
+-------------------------------
+-- ## section root
+
+<!doctype html>
+<h1>Out Site</h1>
+<article>
+	<h2>Welcome to our library</h2>
+		<h3>this is H3</h3>
+		<p>this is text</p>
+		<h3>"this is H3 in quotes"</h3>
+		<p>this is text</p>
+		<h3>this is H3</h3>
+		<p>this is text</p>
+</article>
+
+-------------------------------
+
+
+
+
+-------------------------------
+

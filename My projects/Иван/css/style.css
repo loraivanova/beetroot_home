@@ -1,0 +1,155 @@
+ * {
+	margin:0; 
+	padding:0;
+	box-sizing: border-box;
+}
+li {
+    list-style:none;
+}
+ .wi-day-sunny {
+     color: #ffffff;
+     font-size: 21px;
+ }
+ .wi-night-sleet {
+     color: #ffffff;
+     font-size: 21px;
+ }
+ .wi-day-cloudy {
+     color: #ffffff;
+     font-size: 21px;
+ }
+ .wi-day-cloudy-high{
+     color: #ffffff;
+     font-size: 21px;
+ }
+ .wi-hot {
+     color: #ffffff;
+     font-size: 21px;
+ }
+.wi-day-storm-showers {
+    color: #ffffff;
+    font-size: 21px;
+}
+.wi-rain-wind {
+    color: #ffffff;
+    font-size: 21px;
+}
+.wi-day-sunny-overcast {
+    color: #ffffff;
+    font-size: 21px;
+}
+.wi-night-clear {
+    color: #ffffff;
+    font-size: 21px;
+}
+.wi-night-partly-cloudy {
+    color: #ffffff;
+    font-size: 21px;
+}
+.border {
+    border: 24px solid #2b81ac;
+    height: 100%;
+}
+.background {
+    background: #3399cc;
+    height: 915px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.container {
+	max-width: 70%;
+	margin: 0px auto 0;
+    padding-top: 100px;
+
+}
+.box-item__forecast {
+    color: #ffffff;
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+.box-item__umbrella {
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.box {
+    border: 3px solid white;
+	font-size: 0px;
+    max-width: 915px;
+   max-height: 625px;
+
+}
+ .box:hover > li {
+     opacity: 0.5;
+ }
+ li.box__item:hover {
+     opacity: 1;
+ }
+.box__item {
+	/*color: white;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;*/
+    color: white;
+    width: 25%;
+    display: inline-block;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    padding: 1em 0;
+
+}
+ .box-item__temprature{
+     opacity: 0.5;
+ }
+
+.box__item_blue_lisbon {
+    background-color: #3399cc;
+    width: 50%;
+}
+.box__item_lightblue_paris {
+    background-color: #33cccc;
+    width:25%;
+}
+.box__item_purple_belgrade {
+    background-color: #996699;
+    width: 25%;
+}
+.box__item_red_moscow {
+    background-color: #c24747;
+	width: 25%;
+}
+.box__item_orange_telaviv {
+    background-color: #e2674a;
+    width: 25%;
+}
+.box__item_yellow_cair  {
+    background-color: #ffcc66;
+    width: 25%;
+}
+.box__item_mint_newyork  {
+    background-color: #99cc99;
+    width: 25%;
+}
+.box__item_grey_newdelhi {
+    background-color: #669999;
+    width: 25%;
+}
+.box__item_pink_sanfracisco {
+    background-color: #cc6699;
+    width: 50%;
+}
+.box__item_green_tokyo {
+    background-color: #339966;
+    width: 25%;
+}
+
+.box__item_violet_sydney {
+    background-color: #666699;
+    width: 100%;
+}
+
+
+

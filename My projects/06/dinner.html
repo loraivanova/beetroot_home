@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dinner</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+        }
+        li {
+            list-style: none;
+        }
+        .conteiner {
+            background: #3b3f45;
+            min-height: 100vh;
+            border: 30px solid white;
+        }
+        .header-box {
+            background: #4A4F56;
+            padding: 24px 0 18px 0;
+        }
+        .header-box__title {
+            font-size: 30px;
+            text-align: center;
+            font-weight: 600;
+            color: #eb7e7f;
+        }
+        .header-box__slogan {
+            text-align: center;
+            font-size: 20px;
+            color: #eb7e7f;
+        }
+        .menu-list {
+            width: 800px;
+            margin: auto;
+            padding: 35px 0;
+        }
+        .menu-list__item {
+            background: #88839e;
+            border-top: 6px solid #88839e;
+            border-bottom: 6px solid #88839e;
+            padding: 8px 15px;
+            font-size: 25px;
+            color: white;
+        }
+        .menu-list__item:nth-child(even) {
+            background: #7a7593;
+            border-top: 6px solid #7a7593;
+            border-bottom: 6px solid #7a7593;
+        }
+        .menu-list__item:hover {
+            border-top: 6px solid white;
+            border-bottom: 6px solid white;
+        }
+        .menu-list__span {
+            font-size: 18px;
+        }
+        .menu-list__lebel {
+            padding-left: 20px;
+        }
+        input[type="checkbox"]:checked + label {
+            text-decoration: line-through;
+            opacity: .6;
+        }
+        .footer-box {
+            width: 800px;
+            margin: auto;
+            padding: 15px 0;
+            text-align: center;
+            background: #4a4f56;
+            margin-bottom: 20px;
+        }
+        .footer-bow__content {
+            color: #eb7e7f;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+                <div class="header-box">
+                    <h1 class="header-box__title">
+                        CSS Diner Shopping List
+                    </h1>
+                    <p class="header-box__slogan">
+                        Let's go to the mall!
+                    </p>
+                </div>
+        </header>
+        <main role="main">
+            <!--ul.menu-list>li.menu-list__item*6-->
+            <ul class="menu-list">
+                <li class="menu-list__item">
+                    <!--input:checkbox-->
+                    <input type="checkbox" id="el1">
+                        <label class="menu-list__lebel" for="el1">
+                        A lot of pickers
+                            <span class="menu-list__span">(for the next lessons about CSS)</span>
+                        </label>
+                </li>
+
+                <li class="menu-list__item">
+                    <input type="checkbox" id="el2">
+                        <label class="menu-list__lebel" for="el2">
+                            A lot of pickers
+                            <span class="menu-list__span">(for the next lessons about CSS)</span>
+                        </label>
+                </li>
+
+                <li class="menu-list__item">
+                    <input type="checkbox" id="el3">
+                        <label class="menu-list__lebel" for="el3">
+                            A lot of pickers
+                            <span class="menu-list__span">(for the next lessons about CSS)</span>
+                        </label>
+                </li>
+
+                <li class="menu-list__item">
+                    <input type="checkbox" id="el4">
+                        <label class="menu-list__lebel" for="el4">
+                            A lot of pickers
+                            <span class="menu-list__span">(for the next lessons about CSS)</span>
+                        </label>
+                </li><li class="menu-list__item">
+                    <input type="checkbox" id="el5">
+                        <label class="menu-list__lebel" for="el5">
+                            A lot of pickers
+                            <span class="menu-list__span">(for the next lessons about CSS)</span>
+                        </label>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <div class="footer-box">
+                <p class="footer-bow__content">Bon appetit :)</p>
+            </div>
+        </footer>
+    </div><!--/.conteiner-->
+</body>
+</html>
